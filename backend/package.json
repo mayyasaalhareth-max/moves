@@ -1,0 +1,32 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Express.js backend boilerplate with MVC architecture for Next.js training",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node test.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "mvc",
+    "node",
+    "nextjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "supertest": "^6.3.4"
+  }
+}
